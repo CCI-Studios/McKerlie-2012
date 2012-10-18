@@ -1,4 +1,9 @@
 // @group modules
 .module {} // DO NOT TOUCH
-.module h3 {} // DO TOUCH
+.module h3 {
+	font-family: "purista-web";
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 300;
+}
 
