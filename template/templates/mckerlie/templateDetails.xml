@@ -24,13 +24,8 @@
 	</files>
 
 	<positions>
-		<position>debug</position>
 		<position>header</position>
 		<position>masthead</position>
-		<position>precontent</position>
-		<position>postcontent</position>
-		<position>sidebar1</position>
-		<position>sidebar2</position>
 		<position>bottom</position>
 		<position>footer</position>
 	</positions>
