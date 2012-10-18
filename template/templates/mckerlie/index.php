@@ -26,7 +26,7 @@ if ($_SERVER['SERVER_PORT'] === 8888 ||
 
 JHTML::_('behavior.mootools');
 $analytics = null; // FIXME Update to client ID
-$typekit = null;
+$typekit = 'nix4klu';
 ?>
 
 <head>
@@ -66,70 +66,37 @@ $typekit = null;
 
 <body class="<?= $menu ?>">
 
-	<div id="wrapper">
-		<header>
+	<div id="wrapper"><div><div><div class="container">
+		<div id="header">
 			<jdoc:include type="modules" name="header" style="rounded" />
-		</header>
+			<div class="clear"></div>
+		</div>
 
 		<div id="masthead">
 			<jdoc:include type="modules" name="masthead" style="rounded" />
 		</div>
 
-		<div id="prebody">
-			<jdoc:include type="modules" name="prebody" style="rounded" />
-		</div>
-
 		<div id="main">
 			<div id="content">
-				<?php if ($this->countModules('precontent')): ?>
-					<jdoc:include type="modules" name="precontent" style="rounded" />
-				<?php endif; ?>
-
-				<jdoc:include type="message" />
-
-				<article>
-					<jdoc:include type="component" />
-				</article>
-
-				<?php if ($this->countModules('postcontent')): ?>
-					<jdoc:include type="modules" name="postcontent" style="rounded" />
-				<?php endif; ?>
+				<jdoc:include type="message" />		
+				<jdoc:include type="component" />
 			</div>
 
-			<?php if ($this->countModules('sidebar1')): ?>
-				<aside>
-					<jdoc:include type="modules" name="sidebar1" style="rounded" />
-				</aside>
-			<?php endif; ?>
-
-			<?php if ($this->countModules('sidebar2')): ?>
-				<aside>
-					<jdoc:include type="modules" name="sidebar2" style="rounded" />
-				</aside>
-			<?php endif; ?>
+			<div id="bottom">
+				<jdoc:include type="modules" name="bottom" style="rounded" />
+			</div>
+			<div class="clear"></div>
 		</div>
 
-		<div id="postbody">
-			<jdoc:include type="modules" name="postbody" style="rounded" />
-		</div>
-
-		<footer>
+		<div id="footer">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
-		</footer>
-
-		<div id="copyright">
-			<div class="span4">
-				<p>Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></p>
+			<div id="copyright">
+				<div class="left">&copy; McKerlie Construction <?php echo date('Y') ?>. All Rights Reserved.</div>
+				<div class="right">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</div>
 			</div>
-			<div class="span4 offset4">
-				<p>Copyright &copy; <?php echo date('Y') ?></p>
-			</div>
+			<div class="clear"></div>
 		</div>
-
-		<div id="debug">
-			<jdoc:include type="debug" />
-		</div>
-	</div>
+	</div></div></div></div>
 
 	<div class="hidden">
 		<jdoc:include type="modules" name="hidden" style="raw" />
