@@ -19,22 +19,31 @@ body, select, input, textarea {
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 {
-	font-weight: bold;
+	font-weight: 600;
+	font-family: "purista-web";
+	color: $gold;
 }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.8em; }
-h3 { font-size: 1.6em; }
+h1 { 
+	font-size: 24px; 
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+h2 { font-size: 18px; }
+
+h3 { 
+	font-size: 14px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
 h4 { font-size: 1.4em; }
-h5 { font-size: 1.2em; }
-h6 { font-size: 1.0em; }
 
 a, a:active, a:visited {
-	color: red;
+	color: $gold;
 	text-decoration: none;
 }
 a:hover {
-	color: teal;
 	text-decoration: underline;
 }
 
