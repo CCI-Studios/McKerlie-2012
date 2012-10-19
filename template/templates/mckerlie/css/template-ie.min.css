@@ -395,7 +395,8 @@ h2 {
 
 h3 {
   font-size: 14px;
-  font-family: Helvetica, Arial, sans-serif; }
+  font-family: Helvetica, Arial, sans-serif;
+  margin-bottom: .5em; }
 
 h4 {
   font-size: 1.4em; }
@@ -406,6 +407,9 @@ a, a:active, a:visited {
 
 a:hover {
   text-decoration: underline; }
+
+p {
+  margin-top: 0; }
 
 .item-page ul {
   margin-left: 30px;
@@ -493,16 +497,12 @@ body {
 .module h3 {
   font-family: "purista-web";
   font-size: 18px;
+  text-transform: uppercase;
   color: #ffffff;
   font-weight: 300; }
 
 .logo {
-  float: left;
-  width: 219px;
-  height: 114px; }
-  .logo img {
-    margin-top: -90px;
-    margin-left: -240px; }
+  float: left; }
 
 .masthead img {
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.5); }
@@ -602,14 +602,22 @@ body {
    Also: hot pink! */
 /* TODO Update selection BG color */
 ::-moz-selection {
-  background: #FF5E99;
+  background: #f0b310;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #FF5E99;
+  background: #f0b310;
   color: #fff;
   text-shadow: none; }
 
 .gold {
   color: #f0b310; }
+
+.icon-arrow {
+  float: right;
+  background: url("../images/icon_arrow.png") right center no-repeat;
+  padding-right: 18px;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
