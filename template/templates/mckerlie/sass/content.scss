@@ -4,3 +4,12 @@
 .gold {
 	color: $gold;
 }
+
+.icon-arrow {
+	float: right;
+	background: url('../images/icon_arrow.png') right center no-repeat;
+	padding-right: 18px;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+}
