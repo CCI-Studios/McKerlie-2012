@@ -489,6 +489,10 @@ body {
   #content.with-bottom {
     background: url("../images/divider.png") bottom center repeat-x; }
 
+#bottom {
+  padding: 10px 0;
+  overflow: auto; }
+
 #footer {
   font-size: 12px;
   color: #f0b310;
@@ -509,7 +513,7 @@ ul.sigProContainer {
   padding: 0 !important;
   overflow: visible; }
   ul.sigProContainer li.sigProThumb {
-    margin: 0 0 8px 18px;
+    margin: 0 0 18px 18px;
     background: inherit;
     box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.75); }
     ul.sigProContainer li.sigProThumb span.sigProLinkOuterWrapper {
@@ -566,7 +570,7 @@ ul.sigProContainer {
   float: right;
   margin-top: 84px; }
   .primary-menu .menu > li {
-    padding: 0 0 0 30px; }
+    padding: 0 0 0 26px; }
     .primary-menu .menu > li:first-child {
       padding-left: 0; }
   .primary-menu a {
@@ -633,8 +637,7 @@ ul.sigProContainer {
   padding-right: 18px;
   display: inline-block;
   *display: inline;
-  *zoom: 1;
-  margin: 1em 0; }
+  *zoom: 1; }
   .icon-arrow a {
     color: #ffffff; }
     .icon-arrow a:hover {
