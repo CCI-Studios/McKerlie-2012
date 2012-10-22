@@ -3,8 +3,15 @@
 
 .icon-arrow {
   float: right;
+  font-size: 16px;
   background: url("../images/icon_arrow.png") right center no-repeat;
   padding-right: 18px;
   display: inline-block;
   *display: inline;
-  *zoom: 1; }
+  *zoom: 1;
+  margin: 1em 0; }
+  .icon-arrow a {
+    color: #ffffff; }
+    .icon-arrow a:hover {
+      color: #f0b310;
+      text-decoration: none; }

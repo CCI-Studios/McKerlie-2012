@@ -403,7 +403,12 @@ h4 {
 
 a, a:active, a:visited {
   color: #f0b310;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in; }
 
 a:hover {
   text-decoration: underline; }
@@ -466,7 +471,7 @@ button {
 body {
   background: #2f200e url("../images/bg_body-inner.jpg") center 0 no-repeat; }
   body.home {
-    background: #2f200e url("../images/bg_body.jpg") center 18px no-repeat; }
+    background: #2f200e url("../images/bg_body.jpg") center 17px no-repeat; }
 
 #wrapper {
   min-width: 960px; }
@@ -623,8 +628,15 @@ ul.sigProContainer {
 
 .icon-arrow {
   float: right;
+  font-size: 16px;
   background: url("../images/icon_arrow.png") right center no-repeat;
   padding-right: 18px;
   display: inline-block;
   *display: inline;
-  *zoom: 1; }
+  *zoom: 1;
+  margin: 1em 0; }
+  .icon-arrow a {
+    color: #ffffff; }
+    .icon-arrow a:hover {
+      color: #f0b310;
+      text-decoration: none; }
