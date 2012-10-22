@@ -77,14 +77,22 @@ $typekit = 'nix4klu';
 		</div>
 
 		<div id="main">
-			<div id="content">
+			<div id="content" class="<?php
+							if (!$this->countModules('bottom')) {
+								echo 'no-bottom';
+							} else {
+								echo 'with-bottom';
+							}
+					?>">
 				<jdoc:include type="message" />		
 				<jdoc:include type="component" />
 			</div>
 
+			<?php if ($this->countModules('bottom')): ?>
 			<div id="bottom">
 				<jdoc:include type="modules" name="bottom" style="rounded" />
 			</div>
+			<?php endif; ?>
 			<div class="clear"></div>
 		</div>
 
