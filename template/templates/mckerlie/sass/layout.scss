@@ -30,8 +30,11 @@ body {
 }
 
 #content {
-	background: url('../images/divider.png') bottom center repeat-x;
 	padding: 0 0 25px 0;
+
+	&.with-bottom {
+		background: url('../images/divider.png') bottom center repeat-x;
+	}
 }
 
 #footer {
@@ -45,4 +48,36 @@ body {
 	font-family: "purista-web";
 	overflow: auto;
 	padding-top: 20px;
+}
+
+//portfolio - simple image gallery 
+
+.portfolio .item-page {
+	margin-left: -18px;
+
+	h1 {
+		margin-left: 18px;
+	}
+}
+
+ul.sigProContainer {
+	padding: 0 !important;
+	overflow: visible;
+
+	li.sigProThumb {
+		margin: 0 0 8px 18px;
+		background: inherit;
+		box-shadow: 2px 2px 9px rgba(black, .75);
+
+		span.sigProLinkOuterWrapper {
+			padding: 0;
+			background: none;
+		}
+
+		span.sigProLinkWrapper {
+			padding: 0;
+			border: 0;
+			margin: 0;
+		}
+	}
 }

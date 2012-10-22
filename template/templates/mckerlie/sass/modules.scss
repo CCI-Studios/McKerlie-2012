@@ -23,26 +23,4 @@
 	div.custom {
 		margin-left: -18px;
 	}
-
-	.sigProContainer {
-		padding: 0 !important;
-		overflow: visible;
-
-		li {
-			margin: 0 0 8px 18px;
-			background: inherit;
-			box-shadow: 2px 2px 9px rgba(black, .75);
-
-			span.sigProLinkOuterWrapper {
-				padding: 0;
-				background: none;
-			}
-
-			span.sigProLinkWrapper {
-				padding: 0;
-				border: 0;
-				margin: 0;
-			}
-		}
-	}
 }
