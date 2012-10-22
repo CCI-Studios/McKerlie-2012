@@ -43,6 +43,7 @@ h4 { font-size: 1.4em; }
 a, a:active, a:visited {
 	color: $gold;
 	text-decoration: none;
+	@include transition(color .3s ease-in);
 }
 a:hover {
 	text-decoration: underline;
