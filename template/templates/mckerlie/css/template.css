@@ -507,7 +507,8 @@ body {
   padding-top: 20px; }
 
 .portfolio .item-page {
-  margin-left: -18px; }
+  margin-left: -18px;
+  *zoom: 1; }
   .portfolio .item-page h1 {
     margin-left: 18px; }
 
@@ -540,7 +541,8 @@ ul.sigProContainer {
   box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.5); }
 
 .module.portfolio div.custom {
-  margin-left: -18px; }
+  margin-left: -18px;
+  *zoom: 1; }
 
 .hmenu .menu {
   margin: 0;
