@@ -35,6 +35,10 @@ body {
 	&.with-bottom {
 		background: url('../images/divider.png') bottom center repeat-x;
 	}
+
+	.item-page {
+		padding-top: 10px;
+	}
 }
 
 #bottom {

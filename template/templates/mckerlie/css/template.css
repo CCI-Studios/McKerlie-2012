@@ -488,6 +488,8 @@ body {
   padding: 0 0 25px 0; }
   #content.with-bottom {
     background: url("../images/divider.png") bottom center repeat-x; }
+  #content .item-page {
+    padding-top: 10px; }
 
 #bottom {
   padding: 10px 0;
