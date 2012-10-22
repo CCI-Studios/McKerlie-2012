@@ -99,8 +99,8 @@ $typekit = 'nix4klu';
 		<div id="footer">
 			<jdoc:include type="modules" name="footer" style="xhtml" />
 			<div id="copyright">
-				<div class="left">&copy; McKerlie Construction <?php echo date('Y') ?>. All Rights Reserved.</div>
-				<div class="right">Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</div>
+				<div class="left"><p>&copy; McKerlie Construction <?php echo date('Y') ?>. All Rights Reserved.</p></div>
+				<div class="right"><p>Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</p></div>
 			</div>
 			<div class="clear"></div>
 		</div>
