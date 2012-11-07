@@ -4,6 +4,10 @@
 	margin: 0 auto;
 }
 
+html {
+	min-width: 960px;
+}
+
 body {
 	background: #2f200e url('../images/bg_body-inner.jpg') center 0 no-repeat;
 
