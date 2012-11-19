@@ -1,0 +1,30 @@
+.portfolio .item-page {
+	margin-left: -18px;
+	*zoom: 1;
+	
+	h1 {
+		margin-left: 18px;
+	}
+}
+
+ul.sigProContainer {
+	padding: 0 !important;
+	overflow: visible;
+
+	li.sigProThumb {
+		margin: 0 0 18px 18px;
+		background: inherit;
+		box-shadow: 2px 2px 9px rgba(black, .75);
+
+		span.sigProLinkOuterWrapper {
+			padding: 0;
+			background: none;
+		}
+
+		span.sigProLinkWrapper {
+			padding: 0;
+			border: 0;
+			margin: 0;
+		}
+	}
+}
