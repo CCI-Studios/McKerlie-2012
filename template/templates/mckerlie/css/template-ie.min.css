@@ -662,3 +662,9 @@ ul.sigProContainer {
       padding: 0;
       border: 0;
       margin: 0; }
+
+#lbCenter {
+  overflow: visible; }
+
+#lbImage {
+  background-color: #fff; }
